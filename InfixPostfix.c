@@ -56,7 +56,7 @@ void post(char input[100])
     int i;
     for(i=0;input[i]!='\0';i++)
     {
-        if(x<0 || x>2)
+        if(x<0 || x>1)
         {
             printf("Incorrect Expression");
             return;
